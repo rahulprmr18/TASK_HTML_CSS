@@ -1,0 +1,77 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .background-example {
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Background Properties Examples */
+  
+  #bg-none {
+    background-image: none;
+  }
+  
+  #bg-url {
+    background-image: url(images/im1.jpeg);
+    background-repeat: no-repeat;
+  }
+  
+  #bg-color {
+    background-color: #3498db;
+  }
+  
+  #bg-size {
+    background-image: url(images/flower.jpeg);
+    background-size: cover;
+  }
+  
+  #bg-position {
+    background-image: url(images/lotus.jpeg);
+    background-position: center;
+  }
+  
+  #bg-attachment {
+    background-image: url(images/rose.jpeg);
+    background-attachment: fixed;
+  }
+  
+  #bg-clip {
+    background-image: url(images/im4.jpeg);
+    background-clip: content-box;
+  }
+  
+  #bg-origin {
+    background-image: url(images/lotus.jpeg);
+    background-origin: content-box;
+  }
+  
+  #bg-combined {
+    background-image: url(images/im5.jpeg);
+    background-color: #ecf0f1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  

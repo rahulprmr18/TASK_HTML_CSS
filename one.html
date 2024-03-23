@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .reasons-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .circles-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .circle-text {
+      position: absolute;
+      bottom: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      text-align:center ;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="reasons-section">
+    <h2>Many Good Reasons to Stick Around</h2>
+    <div class="circles-container">
+      <div class="circle" style="background-color: #FFA500;"><text id="text"></text><span class="circle-text">3,857,000 trusting customers</span></div>
+      <div class="circle" style="background-color: #FF6347;"><span class="circle-text">99.999% uptime Guarantee</span></div>
+      <div class="circle" style="background-color: #4682B4;"><span class="circle-text">Lightning Fast CDN</span></div>
+    </div>
+  </div>
+</body>
+</html>

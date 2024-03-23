@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .box {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .static {
+    background-color: #3498db;
+    position: static;
+  }
+  
+  .relative {
+    background-color: #2ecc71;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .absolute {
+    background-color: #e74c3c;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+  
+  .fixed {
+    background-color: #f39c12;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .sticky {
+    background-color: #9b59b6;
+    position: sticky;
+    top: 20px;
+  }
+  
