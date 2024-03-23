@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    /* display: inline;
+    display: block; */
+    display:inline-block;
+}
+
+#Box1{
+    background-color: rgba(29, 107, 107,0.5);
+}
+
+#Box2{
+    background-color: rgba(23, 203, 155,0.7);
+}
+
+#Box3{
+    background-color: rgba(29, 107, 107,0.2);
+}

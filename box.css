@@ -1,0 +1,28 @@
+/* div{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(14, 56, 147);
+    background-color: rgb(12, 172, 127);
+} */
+
+/* div{
+    border:2px solid blueviolet;
+    background-color: chocolate;
+    border-radius: 50%;
+
+} */
+
+div{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(24, 207, 70);
+    border: 10x solid black;
+    border-style:solid;
+    border-radius: 2%;
+    padding: 70px;
+    margin: 10px;
+}

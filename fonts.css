@@ -1,0 +1,15 @@
+@font-face {
+    font-family:Homenaje;
+    src: url(C:\Users\rkpar\OneDrive\Desktop\SIPHTML\fonts\Homenaje\Homenaje-Regular.ttf);
+}
+h1{
+    font-family: Homenaje;
+}
+
+#p1{
+    font-family: Homenaje;
+    font-size: 1em;
+    font-weight: normal;
+    font-weight: 100;
+    font-style:italic;
+}
